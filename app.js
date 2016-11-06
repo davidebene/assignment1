@@ -29,7 +29,7 @@ function LunchCheckController($scope) {
       }
 
       if (realItems<=3) {
-        $scope.message = 'Enjoy';
+        $scope.message = 'Enjoy!';
       }
       else {
         $scope.message = 'Too much!';
